@@ -1,9 +1,13 @@
 import csv
+import os
+import platform
 
 file = 'Contacts.csv'
 
-def show_menu():
+def main_menu():
     print(f"{'='*10}Phone Book{'='*10}")
+    print('A simple program to save and manage contact lists in the phone book.\n')
+    print(f"{'='*10}Main Menu{'='*10}")
     print('[1] Show Contact')
     print('[2] Add Contact')
     print('[3] Update Contact')
@@ -25,9 +29,18 @@ def show_menu():
     elif selected_number == '0':
         pass
     else:
-        print('\nUnknown command\n')
+        print('\nUnknown command.\n')
+
+def clear_screen():
+    if platform.system() == 'Windows':
+        os.system('cls')
+    else:
+        os.system('clear')
+
+def back_to_main_menu():
+    input('Press enter to return to the main menu...')
+    clear_screen()
+    main_menu()
 
 if __name__ == '__main__':
-    show_menu()
-
-
+    main_menu()
