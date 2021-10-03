@@ -8,7 +8,7 @@ This repository was created to develop simple programs with beginner programmers
 # Features
 1. Show Contacts
 2. Add Contact
-3. Change Contact
+3. Update Contact
 4. Search Contacts
 5. Delete Contact
 6. Exit
