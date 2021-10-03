@@ -29,4 +29,4 @@ Before starting the contributing on this project, make sure you understand:
 3. Control structure
 4. Functions and procedures
 5. CSV
-8. Read the contribution rules at **[CONTRIBUTING.md]()**
+8. Read the contribution rules at **[CONTRIBUTING.md](https://github.com/CycloneDevID/Phone-Book/blob/main/CONTRIBUTING.md)**
