@@ -15,12 +15,18 @@ This repository was created to develop simple programs with beginner programmers
 
 # Design
 #### Main Menu
+|<img width='230' src='https://github.com/CycloneDevID/Phone-Book/blob/main/img/1_main_menu.PNG'>|
+|---|
 
 #### Show Contacts
+|<img width='300' src='https://github.com/CycloneDevID/Phone-Book/blob/main/img/2_add_contact.PNG'>|
+|---|
 
 #### Add Contacts
+|<img width='300' src='https://github.com/CycloneDevID/Phone-Book/blob/main/img/3_update_contact.PNG'>|
+|---|
 
-#### other menu...
+#### Other Menu...
 
 # Required
 Before starting the contributing on this project, make sure you understand:
