@@ -15,18 +15,13 @@ def main_menu():
     print('[5] Delete Contact')
     print('[0] Exit')
 
-    selected_number = str(input('\nInput number to select menu: '))
-    if selected_number == '1':
-        pass
-    elif selected_number == '2':
-        pass
-    elif selected_number == '3':
-        pass
-    elif selected_number == '4':
-        pass
-    elif selected_number == '5':
-        pass
-    elif selected_number == '0':
+    //input is obtained as int
+    
+    selected_number = int(input('\nInput number to select menu: '))
+    
+    //changed the long else if condition to shorter to reduce the programming memory
+    
+    if selected_number in range (0,6):
         pass
     else:
         print('\nUnknown command.\n')
